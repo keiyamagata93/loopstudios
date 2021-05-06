@@ -1,0 +1,7 @@
+.cache
+.parcel-cache
+src
+.gitignore
+.surgeignoore
+package.json
+readme.md

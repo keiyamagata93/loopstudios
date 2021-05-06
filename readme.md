@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Github](https://github.com/keiyamagata93/loopstudios)
+-   Live Site URL: [https://loopstudios-kei.vercel.app/](https://loopstudios-kei.vercel.app/)
 
 ## My process
 
