@@ -1,0 +1,23 @@
+{
+	"name": "scss",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "npm run dev",
+		"dev": "parcel ./src/index.html",
+		"clean": "rm -rf ./dist/ ./.cache ./.parcel-cache",
+		"prebuild": "npm run clean",
+		"build": "parcel build ./src/index.html",
+		"deploy": "surge ./dist/ --domain https://loopstudios.surge.sh"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@parcel/transformer-image": "^2.0.0-beta.2",
+		"@parcel/transformer-sass": "^2.0.0-beta.2",
+		"parcel": "^2.0.0-beta.2",
+		"sharp": "^0.27.2",
+		"surge": "^0.22.1"
+	}
+}
